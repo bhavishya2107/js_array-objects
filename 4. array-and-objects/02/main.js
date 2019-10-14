@@ -79,10 +79,10 @@ for(i = 0 ; i < penguins.length ; i++) {
 //12.
 for(i = 0 ; i < penguins.length ; i++) {
 
-  if(penguins[i].canFly == true){
-    console.log(`${penguins[i].name} can fly`)
-  } 
-  // penguins[i].canFly ? console.log(`${penguins[i].name} can fly`) : null
+  // if(penguins[i].canFly == true){
+  //   console.log(`${penguins[i].name} can fly`)
+  // } 
+   penguins[i].canFly ? console.log(`${penguins[i].name} can fly`) : ""
 }
 
 
